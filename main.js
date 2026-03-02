@@ -43,3 +43,6 @@ if (donateForm) {
     window.scrollTo({ top: thankYou.offsetTop - 80, behavior: 'smooth' });
   });
 }
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("show");
+}
