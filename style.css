@@ -253,3 +253,35 @@ footer {
   height: 46px;
   object-fit: contain;
 }
+/* มือถือ */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .hero {
+    padding: 40px 16px;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu a {
+    padding: 8px 0;
+  }
+}
