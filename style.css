@@ -253,16 +253,3 @@ footer {
   height: 46px;
   object-fit: contain;
 }
-.menu-toggle {
-  display: none;
-  font-size: 28px;
-  background: none;
-  border: none;
-  color: white;
-}
-
-/* Desktop */
-.menu {
-  display: flex;
-  gap: 20px;
-}
