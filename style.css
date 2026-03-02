@@ -280,39 +280,3 @@ footer {
   display: flex;
   gap: 20px;
 }
-@media (max-width: 768px) {
-
-  nav {
-    padding: 15px 20px;
-  }
-
-  .menu-toggle {
-    display: block;
-    font-size: 26px;
-    color: #fff;
-  }
-
-  .menu {
-    display: none;
-    position: fixed;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 70px);
-    background: #0e1a24;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    z-index: 999;
-  }
-
-  .menu.show {
-    display: flex;
-  }
-
-  .menu a {
-    font-size: 20px;
-    font-weight: 600;
-  }
-}
